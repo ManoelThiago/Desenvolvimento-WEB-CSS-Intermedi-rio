@@ -44,13 +44,18 @@ h2 {
 }
 */
 
+#principal {
+	border: 5px solid red;
+	background: green;
+}
+
 .conteudo {
 	background: blue;
 	border: 3px solid gray;
-	width: 110px;
+	width: 250px;
 	height: 200px;
 	margin: 10px;
-	float: left;
+	float: right;
 }
 
 /*.conteudo1 {
@@ -65,4 +70,8 @@ h2 {
 .conteudo4 {
 	border: 1px solid red;
 	float: right;
+}
+
+.clear {
+	clear: both;
 }
